@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: postgres
+    password: zzAS1234567
+    url: jdbc:postgresql://localhost:5432/postgres?serverTimezone=UTC&useUnicode=ture&characterEncoding=utf-8
+    driver-class-name: "org.postgresql.Driver"
+
+mybatis:
+  mapper-locations: classpath:mybatis/*.xml
